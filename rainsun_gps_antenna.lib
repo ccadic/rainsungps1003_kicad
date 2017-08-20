@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# RainSUN_GPS_Antenna
+#
+DEF RainSUN_GPS_Antenna RainS-ANT 0 40 Y Y 1 F N
+F0 "RainS-ANT" 350 300 60 H V C CNN
+F1 "RainSUN_GPS_Antenna" 350 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 200 650 0 0 1 0 N
+S 50 200 150 150 0 1 0 N
+X ANT_FEED 1 -200 100 200 R 50 50 1 1 I
+X End 2 850 100 200 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+#End Library
